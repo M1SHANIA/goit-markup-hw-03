@@ -1,0 +1,151 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header {
+}
+.header-span {
+  color: #2e2f42;
+}
+.logo-txt {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.header-list-item {
+}
+.header-list-item-link {
+  color: #2e2f42;
+  /* Body Medium */
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.header-list-item-link:hover {
+  color: #404bbf;
+}
+
+.header-list-item-link:focus {
+  color: #404bbf;
+}
+.header-adress {
+  font-style: normal;
+  color: #434455;
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+
+.header-adress-item-link {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.header-adress-item-link:hover {
+  color: #404bbf;
+}
+.header-adress-item-link:focus {
+  color: #404bbf;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero-btn {
+  background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+.studio-list {
+  font-size: 16px;
+}
+.team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.studio-list-item {
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: #fff;
+}
+.image {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+  border: 1px solid, #e7e9fc;
+  background: #fff;
+}
+.team-desc {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-txt {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer-span {
+  color: #f4f4fd;
+}
+.footer-logo-txt {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
