@@ -1,3 +1,4 @@
+/*====================general===============*/
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -16,7 +17,7 @@ h1 {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
 }
@@ -27,7 +28,32 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* ====================Header====================*/
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid #b95555;
+}
 .header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header-span {
   color: #2e2f42;
@@ -37,7 +63,7 @@ h3 {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -46,9 +72,8 @@ h3 {
 }
 .header-list-item-link {
   color: #2e2f42;
-  /* Body Medium */
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header-list-item-link:hover {
@@ -78,13 +103,15 @@ h3 {
 .header-adress-item-link:focus {
   color: #404bbf;
 }
+
+/*====================First section =================*/
 .hero {
   background-color: #2e2f42;
 }
 .hero-btn {
   background: #4d5ae5;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.64px;
   color: #fff;
 }
@@ -94,20 +121,37 @@ h3 {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+.hero-container {
+  height: 600px;
+}
+.hero-header {
+  max-width: 496px;
+}
+
+/*====================Second section =================*/
 .studio-list {
-  font-size: 16px;
+}
+.studio-container {
 }
 .team {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
 .studio-list-item {
+  max-width: 264px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+.studio-txt {
+  margin-top: 8px;
+  gap: 8px;
+}
+/*==================team===============*/
 .team-section {
   background-color: #f4f4fd;
 }
@@ -118,6 +162,12 @@ h3 {
 }
 .image {
 }
+.team-desc {
+  margin-top: 8px;
+  padding-bottom: 32px;
+}
+
+/*====================Third section================*/
 .portfolio-list {
 }
 .portfolio-list-item {
@@ -128,7 +178,10 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.portfolio-container {
+}
 
+/*====================Foooter================*/
 .footer {
   background-color: #2e2f42;
 }
@@ -136,6 +189,8 @@ h3 {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
+  margin-top: 16px;
 }
 .footer-span {
   color: #f4f4fd;
@@ -145,7 +200,11 @@ h3 {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.footer-container {
+  height: 312px;
+  padding-top: 101.5px;
 }
