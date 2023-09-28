@@ -86,14 +86,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 64px;
+  margin-right: 76px;
 }
 .header-list {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-list-item {
-  padding: 24px 0;
 }
 .header-list-item-link {
   color: #2e2f42;
@@ -133,6 +133,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 
 /*====================First section =================*/
@@ -180,6 +181,7 @@ img {
 }
 
 .studio-list-item {
+  width: calc((100% - 72px) / 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,6 +212,8 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin-top: 72px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-header {
   font-size: 36px;
@@ -224,6 +228,7 @@ img {
 .team-names {
   margin-top: 32px;
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-desc {
   line-height: 1.5;
