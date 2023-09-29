@@ -92,10 +92,10 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-list-item {
   display: block;
+  padding: 24px 0;
 }
 .header-list-item-link {
   color: #2e2f42;
