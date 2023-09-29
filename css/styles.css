@@ -38,6 +38,12 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+ul,
+ol {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 img {
   display: block;
@@ -92,10 +98,10 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-list-item {
   display: block;
-  padding: 24px 0;
 }
 .header-list-item-link {
   color: #2e2f42;
