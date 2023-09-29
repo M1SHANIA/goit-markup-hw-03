@@ -38,11 +38,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 img {
   display: block;
   max-width: 100%;
@@ -96,9 +92,9 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-list-item {
-  padding: 24px 0;
   display: block;
 }
 .header-list-item-link {
